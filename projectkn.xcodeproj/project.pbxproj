@@ -476,9 +476,6 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "xie minna";
 				TargetAttributes = {
-					D91AE4F718A62B6200812B0A = {
-						DevelopmentTeam = C6U23UC587;
-					};
 					D91AE51B18A62B6200812B0A = {
 						TestTargetID = D91AE4F718A62B6200812B0A;
 					};
@@ -694,15 +691,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: yuhang li (429FEE4AFU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yuhang li (429FEE4AFU)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "projectkn/projectkn-Prefix.pch";
 				INFOPLIST_FILE = "projectkn/projectkn-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.siming.projectkn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.linkamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "f6044df1-93d4-482f-baa6-7759c6fc4f62";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -713,15 +710,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xiamen AutoNavi Software Co., Ltd. (83W9QD9KJQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xiamen AutoNavi Software Co., Ltd. (83W9QD9KJQ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "projectkn/projectkn-Prefix.pch";
 				INFOPLIST_FILE = "projectkn/projectkn-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.siming.projectkn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.linkamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "43e963b9-e422-47c4-a7d9-654addf6cd18";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
