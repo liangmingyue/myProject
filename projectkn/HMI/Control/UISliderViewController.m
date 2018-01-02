@@ -32,6 +32,9 @@
     volumeView.frame = CGRectMake(-1000, -100, 100, 100);
     
     
+    
+    
+    
     self.slider = [[UISlider alloc]init];
     self.slider.backgroundColor = [UIColor blueColor];
     for (UIControl *view in volumeView.subviews) {
@@ -48,6 +51,8 @@
     self.slider.frame = CGRectMake(-1000, -100, 100, 100);
     
     NSLog(@"%@",volumeView.subviews);
+    // 测试
+    //添加
     
     NSError *error;
     // Active audio session before you listen to the volume change event.
